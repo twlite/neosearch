@@ -380,7 +380,7 @@ export const searchEngines: SearchEngine[] = [
   },
   {
     name: 'Discord',
-    url: 'https://discord.com/servers?q=',
+    url: 'https://discord.com/servers?query=',
     prefixes: ['dc', 'discord'],
     description: 'Find Discord servers',
     color: '#5865F2',
