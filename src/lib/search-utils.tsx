@@ -1,7 +1,7 @@
 import { searchEngines } from './bangs';
 
 export function handleSearch(query: string): void {
-  let searchUrl = 'https://www.google.com/search?q=';
+  let searchUrl = 'https://www.bing.com/search?q=';
   let searchQuery = query.trim();
 
   for (const engine of searchEngines) {
